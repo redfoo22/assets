@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fro Nuff &mdash; Character Pitch for Rockstar Games</title>
+  <style>
+    :root {
+      --bg:#0b0b0e; --fg:#e9e9ef; --muted:#b8b8c7; --glow:#ff2745; --card:#141419; --accent:#ff2745;
+    }
+    html,body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif}
+    a{color:var(--fg);text-decoration:underline}
+    .wrap{max-width:980px;margin:0 auto;padding:32px 20px}
+    header{display:flex;align-items:center;gap:18px;margin-bottom:18px}
+    .dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 24px var(--glow)}
+    h1{font-size:28px;margin:0}
+    .lead{color:var(--muted);margin:6px 0 24px}
+    .card{background:var(--card);border:1px solid #22232b;border-radius:14px;padding:18px 18px 6px;box-shadow:0 0 0 1px rgba(255,39,69,0.08), 0 8px 40px rgba(0,0,0,.45)}
+    .btns{display:flex;gap:12px;flex-wrap:wrap;margin:18px 0}
+    .btn{background:transparent;color:var(--fg);border:1px solid #3a3a48;border-radius:999px;padding:10px 14px;display:inline-flex;gap:8px;align-items:center}
+    .btn.primary{background:var(--accent);border-color:var(--accent);color:#10070a;box-shadow:0 0 24px var(--glow)}
+    .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:14px 0 8px}
+    figure{margin:0;background:#0f0f14;border:1px solid #252633;border-radius:12px;overflow:hidden}
+    figure img{display:block;width:100%;height:320px;object-fit:cover}
+    figcaption{font-size:12px;color:var(--muted);padding:8px 10px;border-top:1px solid #1f202a}
+    .footer{margin:26px 0 10px;font-size:13px;color:var(--muted)}
+    .pill{display:inline-block;font-size:12px;padding:3px 8px;border:1px solid #38394b;border-radius:999px;margin-left:8px;color:#c6c6d2}
+    .hr{height:1px;background:#1e1f2a;margin:18px 0}
+    .small{font-size:14px;color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <span class="dot" aria-hidden="true"></span>
+      <h1>Fro Nuff &mdash; Character Pitch for Rockstar Games</h1>
+    </header>
+
+    <p class="lead">Hey Rockstar &mdash; this is Redfoo. I've been a fan of your games for years. I created a character I think fits your world (and GTA's satire) perfectly: <strong>Fro Nuff</strong> &mdash; a neon-glow kung fu showman who roller-skates, hovers while meditating, and turns every block into a stage. If this sparks interest, I'd love to hop on a quick call to share more and hear about your upcoming releases.</p>
+
+    <div class="card">
+      <p><strong>Quick snapshot</strong> <span class="pill">simple one-pager</span></p>
+      <ul class="small">
+        <li><strong>Look:</strong> afro silhouette, tassel vest, statement shades, signature <em>red neon aura</em>.</li>
+        <li><strong>Vibe:</strong> playful parody of 80s kung fu + nightlife culture &mdash; bold, satirical, meme-ready.</li>
+        <li><strong>Hooks:</strong> roller-flow chase moments, cinematic glow finisher, swagger-first taunts.</li>
+        <li><strong>What I bring:</strong> I own Redfoo / Party Rock / Fro Nuff; I can deliver <em>original songs</em>, VO, and promo assets fast. I also prototype visuals and moves with AI.</li>
+      </ul>
+      <div class="btns">
+        <a class="btn primary" href="mailto:contact@example.com?subject=Fro%20Nuff%20Pitch">Let's meet</a>
+        <a class="btn" href="#gallery">See refs</a>
+        <a class="btn" href="#social">Social links (soon)</a>
+      </div>
+    </div>
+
+    <div class="hr"></div>
+
+    <h2 id="gallery">Reference Stills</h2>
+    <p class="small">Current stills live in <code>../assets/</code>. Swap in new files or adjust the paths below when you add fresh renders.</p>
+
+    <div class="grid">
+      <figure>
+        <img src="../assets/Fro-Nuff-Redish.png" alt="Fro Nuff charging up in a red glow with the city skyline behind" />
+        <figcaption>Signature red-glow power-up</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/Fro-Nuff-game-play-1.png" alt="Gameplay mockup with Fro Nuff facing a rival in neon-soaked streets" />
+        <figcaption>Gameplay beat: neon street showdown</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/Fro-Nuff-game-play2.png" alt="Fro Nuff skating through an urban arena with glowing trails" />
+        <figcaption>Gameplay beat: roller flow finisher</figcaption>
+      </figure>
+    </div>
+
+    <div class="hr"></div>
+
+    <h2 id="social">Links</h2>
+    <p class="small">Add your official links here when ready:</p>
+    <ul class="small">
+      <li>Instagram: <a href="#">@FroNuff</a> (to be added)</li>
+      <li>Instagram: <a href="#">@Redfoo</a> (to be added)</li>
+    </ul>
+
+    <div class="hr"></div>
+
+    <p class="footer">Contact: <a href="mailto:contact@example.com">contact@example.com</a> &bull; Phone/Alt: add here &bull; &copy; Redfoo &mdash; Party Rock / Fro Nuff</p>
+  </div>
+</body>
+</html>
